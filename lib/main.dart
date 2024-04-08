@@ -20,17 +20,6 @@ class MyApp extends ConsumerWidget {
     return MaterialApp(
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      // localizationsDelegates: const [
-      //   GlobalMaterialLocalizations.delegate,
-      //   GlobalWidgetsLocalizations.delegate,
-      //   GlobalCupertinoLocalizations.delegate,
-      // ],
-      // supportedLocales: const [
-      //   Locale('en'), // English
-      //   Locale('ta'), // Spanish
-      //   Locale('hi'), // Spanish
-      //   Locale('ar'), // Spanish
-      // ],
       locale: Locale(ref.watch(selectedLanguageProvider), ''),
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
